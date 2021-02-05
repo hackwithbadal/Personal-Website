@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.typewrite {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    color: white;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("hacker-img.jpg") top center;
+    background-size: cover;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.myimg h1 {
+    font-size: 70px;
+
+}
+
+.myimg h2 {
+    font-size: 25px;
+}
+
+.myimg {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+}
+
+.section-bg {
+    background: #f5f8fd;
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+.section-title p {
+    margin-bottom: 0;
+    font-family: 'Potta One', cursive;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about img {
+
+    height: 400px;
+    width: 300px;
+    color: black;
+}
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding-bottom: 10px;
+}
+
+.about .content ul i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: #149ddd;
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+.about-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(150px, 1fr);
+}
+
+.about li {
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Potta One', cursive;
+    color: black;
+}
+
+.skills .progress {
+    height: 50px;
+    display: block;
+    background: none;
+}
+
+.skills .progress .skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+    background: whitesmoke;
+}
+
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: red;
+}
+
+
+.temp {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.trr {
+    width: 100%;
+    background-color: #ddd;
+    border: 3px solid blue;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.Python,
+.js,
+.c,
+.html,
+.css {
+    width: 90%;
+    height: 30px;
+    background-color: cyan;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Green */
+.js {
+    width: 90%;
+    background-color: cyan;
+}
+
+/* Green */
+.c {
+    width: 80%;
+    background-color: cyan;
+}
+
+/* Blue */
+.html {
+    width: 85%;
+    background-color: cyan;
+}
+
+/* Red */
+.css {
+    width: 75%;
+    background-color: cyan;
+}
+
+.spaceX {
+    padding: 5px;
+}
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+    font-size: 20px;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+    font-size:20px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.contact{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
